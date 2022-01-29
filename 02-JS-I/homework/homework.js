@@ -25,33 +25,33 @@ const nuevoModulo = 21 % 5 === 1;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(nombre) {
- console.log(nombre)
+function devolverString(nuevaString) {
+  return nuevaString;
 }
 
-function suma(x, y) {
-  console.log(x + y)  
-}
+ function suma(x, y) {
+   return x + y;
+ }
+ 
+ function resta(x, y) {
+   return x - y;
+ }
+ 
+ function multiplica(x, y) {
+   return x * y;
+ }
+ 
+ function divide(x, y) {
+   return x / y;
+   
+ }
 
-function resta(x, y) {
-  console.log(x - y)
+ function sonIguales(x, y) {
+  if (x == y) {
+    return true;
+  }
   
-}
-
-function multiplica(x, y) {
-  console.log(x*y)
-  
-}
-
-function divide(x, y) {
-  console.log(x / y)
-}
-
-function sonIguales(x, y) {
-  // Devuelve "true" si "x" e "y" son iguales
-  // De lo contrario, devuelve "false"
-  // Tu código:
-  
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
