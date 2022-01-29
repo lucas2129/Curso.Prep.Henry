@@ -50,8 +50,9 @@ function devolverString(nuevaString) {
   if (x == y) {
     return true;
   }
-  
-  return false;
+  else{
+    return false;
+  }  
 }
 
 function tienenMismaLongitud(str1, str2) {
